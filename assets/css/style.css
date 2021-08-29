@@ -250,7 +250,7 @@ h1, h2, h3, h4, h5, h6 {
 .navbar .dropdown ul a {
   padding: 10px 20px;
   font-size: 14px;
-  color: #2c4964;
+  color: #000080;
 }
 
 .navbar .dropdown ul a i {
@@ -348,7 +348,7 @@ h1, h2, h3, h4, h5, h6 {
 .navbar-mobile a {
   padding: 10px 20px;
   font-size: 15px;
-  color: #2c4964;
+  color: #000080;
 }
 
 .navbar-mobile a:hover:before, .navbar-mobile li:hover > a:before, .navbar-mobile .active:before {
@@ -567,7 +567,7 @@ section {
 .about .content h3 {
   font-weight: 600;
   font-size: 32px;
-  color: #2c4964;
+  color: #000080;
 }
 
 .about .content ul {
@@ -631,7 +631,7 @@ section {
 }
 
 .about .icon-box h4 a {
-  color: #2c4964;
+  color: #000080;
   transition: ease-in-out 0.3s;
 }
 
@@ -731,7 +731,7 @@ section {
 }
 
 .services .icon-box h4 a {
-  color: #2c4964;
+  color: #000080;
   transition: ease-in-out 0.3s;
 }
 
@@ -885,7 +885,7 @@ section {
   font-size: 18px;
   font-weight: bold;
   margin: 10px 0 5px 45px;
-  color: #2c4964;
+  color: #000080;
 }
 
 .testimonials .testimonial-item h4 {
@@ -1137,81 +1137,59 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Pricing
+# Team
 --------------------------------------------------------------*/
-.pricing .box {
+.team .box {
   padding: 20px;
   background: #fff;
   text-align: center;
   border-radius: 5px;
   position: relative;
+  margin: 15px;
   overflow: hidden;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
 }
 
-.pricing h3 {
+.team .box img {
+  height: 100%;
+  padding: 30px;
+  width: 100%;
+  border-radius: 50%;
+  position: relative;
+}
+
+.team .box:hover img {
+  transform: scale(0.8);
+  transition: linear 0.5s;
+}
+
+.team h3 {
   font-weight: 400;
-  margin: -20px -20px 20px -20px;
-  padding: 20px 15px;
+  margin: -20px;
+  padding: 30px 15px;
   font-size: 16px;
   font-weight: 600;
-  color: #2c4964;
+  color: #000080;
+}
+
+.team .team-content {
   background: #f8f8f8;
+  border-bottom-left-radius: 50px;
+  border-top-right-radius: 50px;
+  padding: 20px;
 }
 
-.pricing h4 {
-  font-size: 36px;
-  color: #FF9933;
-  font-weight: 600;
-  font-family: "Roboto", sans-serif;
-  margin-bottom: 20px;
-}
-
-.pricing h4 sup {
-  font-size: 20px;
-  top: -15px;
-  left: -3px;
-}
-
-.pricing h4 span {
-  color: #bababa;
-  font-size: 16px;
-  font-weight: 300;
-}
-
-.pricing ul {
-  padding: 0;
-  list-style: none;
-  color: #444444;
-  text-align: center;
-  line-height: 20px;
-  font-size: 14px;
-}
-
-.pricing ul li {
-  padding-bottom: 16px;
-}
-
-.pricing ul i {
-  color: #FF9933;
-  font-size: 18px;
-  padding-right: 4px;
-}
-
-.pricing ul .na {
-  color: #ccc;
-  text-decoration: line-through;
-}
-
-.pricing .btn-wrap {
+.team .btn-wrap {
   margin: 20px -20px -20px -20px;
   padding: 20px 15px;
   background: #f8f8f8;
   text-align: center;
 }
 
-.pricing .btn-buy {
-  background: linear-gradient(42deg, #FF9933 0%, #138808 100%);
+.team .btn-buy {
+  border: none;
+  outline: none;
+  background: #FF9933;
   display: inline-block;
   padding: 10px 35px;
   border-radius: 4px;
@@ -1221,19 +1199,19 @@ section {
   font-weight: 400;
   font-family: "Roboto", sans-serif;
   font-weight: 600;
-  transition: 0.3s;
+  transition: 0.8s;
 }
 
-.pricing .btn-buy:hover {
-  background: linear-gradient(180deg, #FF9933 0%, #138808 100%);
+.team .btn-buy:hover {
+  background: #138808;
 }
 
-.pricing .featured h3 {
+.team .featured h3 {
   color: #fff;
   background: #FF9933;
 }
 
-.pricing .advanced {
+.team .advanced {
   width: 200px;
   position: absolute;
   top: 18px;
@@ -1318,7 +1296,7 @@ section {
 }
 
 .faq .faq-list a.collapsed {
-  color: #2c4964;
+  color: #000080;
 }
 
 .faq .faq-list a.collapsed:hover {
@@ -1359,7 +1337,7 @@ section {
 
 .contact .info-box h3 {
   font-size: 20px;
-  color: #2c4964;
+  color: #000080;
   font-weight: 700;
   margin: 10px 0;
 }
