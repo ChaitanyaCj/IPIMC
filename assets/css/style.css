@@ -293,7 +293,7 @@ h1, h2, h3, h4, h5, h6 {
 * Mobile Navigation 
 */
 .mobile-nav-toggle {
-  color: #fff;
+  color: #000;
   font-size: 28px;
   cursor: pointer;
   display: none;
@@ -313,7 +313,7 @@ h1, h2, h3, h4, h5, h6 {
 .navbar-mobile {
   position: fixed;
   overflow: hidden;
-  top: 0;
+  top: 20px;
   right: 0;
   left: 0;
   bottom: 0;
@@ -324,7 +324,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .navbar-mobile .mobile-nav-toggle {
   position: absolute;
-  top: 15px;
+  top: 5px;
   right: 15px;
 }
 
@@ -619,8 +619,8 @@ section {
   padding: 70px 20px 30px 20px;
   transition: all ease-in-out 0.3s;
   background: #fff;
-  min-width: 400px; 
   border-color: #fff;
+  min-width: 300px;
   box-shadow: 0px 0 25px 0 rgba(0, 0, 0, 0.1);
 }
 
@@ -694,8 +694,6 @@ section {
   padding: 70px 20px 80px 20px;
   transition: all ease-in-out 0.3s;
   background: #fff;
-  min-width: 400px; 
-  min-height: 300px;
 }
 
 .services .icon-box .icon {
