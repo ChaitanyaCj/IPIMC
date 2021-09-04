@@ -137,7 +137,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header .logo img {
-  max-height: 80px;
+  max-height: 120px;
 }
 
 /*--------------------------------------------------------------
@@ -402,7 +402,7 @@ h1, h2, h3, h4, h5, h6 {
   width: 100%;
   height: 100vh;
   background: rgb(255,153,51);
-  background: linear-gradient(194deg, rgba(255,255,255,1) 0%, rgba(0,0,128,1) 70%), url("../img/hero-bg.jpg") center center no-repeat;
+  background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(11,230,69,0.5) 100%), url("../img/hero-bg.jpg") center center no-repeat;
   background-size: cover;
 }
 
@@ -415,11 +415,11 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 52px;
   font-weight: 700;
   line-height: 64px;
-  color: #fff;
+  color: #138808;
 }
 
 #hero h2 {
-  color: rgba(255, 255, 255, 0.8);
+  color: rgba(0, 0, 0, 1);
   margin: 10px 0 0 0;
   font-size: 20px;
 }
@@ -435,11 +435,13 @@ h1, h2, h3, h4, h5, h6 {
   transition: 0.5s;
   margin-top: 30px;
   color: #fff;
-  border: 2px solid #fff;
+  background: #138808;
+  border: 2px solid #138808;
 }
 
 #hero .btn-get-started:hover {
   background: #fff;
+  border: #fff;
   color: #FF9933;
 }
 
@@ -620,8 +622,109 @@ section {
   transition: all ease-in-out 0.3s;
   background: #fff;
   border-color: #fff;
-  min-width: 300px;
+  min-width: 250px;
+  margin: 10px;
   box-shadow: 0px 0 25px 0 rgba(0, 0, 0, 0.1);
+}
+
+.about .icon-box .icon {
+  margin: 0 auto;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: ease-in-out 0.3s;
+  position: relative;
+}
+
+.about .icon-box .icon i {
+  font-size: 36px;
+  transition: 0.5s;
+  position: relative;
+}
+
+.about .icon-box .icon svg {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.about .icon-box .icon svg path {
+  transition: 0.5s;
+  fill: #f5f5f5;
+}
+
+.about .iconbox-blue i {
+  color: #47aeff;
+}
+
+.about .iconbox-blue:hover .icon i {
+  color: #fff;
+}
+
+.about .iconbox-blue:hover .icon path {
+  fill: #47aeff;
+}
+
+.about .iconbox-orange i {
+  color: #ffa76e;
+}
+
+.about .iconbox-orange:hover .icon i {
+  color: #fff;
+}
+
+.about .iconbox-orange:hover .icon path {
+  fill: #ffa76e;
+}
+
+.about .iconbox-pink i {
+  color: #e80368;
+}
+
+.about .iconbox-pink:hover .icon i {
+  color: #fff;
+}
+
+.about .iconbox-pink:hover .icon path {
+  fill: #e80368;
+}
+
+.about .iconbox-yellow i {
+  color: #ffbb2c;
+}
+
+.about .iconbox-yellow:hover .icon i {
+  color: #fff;
+}
+
+.about .iconbox-yellow:hover .icon path {
+  fill: #ffbb2c;
+}
+
+.about .iconbox-red i {
+  color: #ff5828;
+}
+
+.about .iconbox-red:hover .icon i {
+  color: #fff;
+}
+
+.about .iconbox-red:hover .icon path {
+  fill: #ff5828;
+}
+
+.about .iconbox-teal i {
+  color: #11dbcf;
+}
+
+.about .iconbox-teal:hover .icon i {
+  color: #fff;
+}
+
+.about .iconbox-teal:hover .icon path {
+  fill: #11dbcf;
 }
 
 .about .icon-box h4 {
@@ -643,7 +746,7 @@ section {
 
 .about .icon-box:hover {
   cursor: pointer;
-  transform: scale(1.1);
+  transform: scale(1.05);
 }
 
 .about .icon-box ul {
@@ -689,6 +792,10 @@ section {
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
+.services p {
+  text-align: justify;
+}
+
 .services .icon-box {
   text-align: center;
   padding: 70px 20px 80px 20px;
@@ -1179,6 +1286,10 @@ section {
   padding: 20px;
 }
 
+.team p {
+  text-align: justify;
+}
+
 .team .btn-wrap {
   margin: 20px -20px -20px -20px;
   padding: 20px 15px;
@@ -1503,9 +1614,9 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  color: #fff;
+  color: #000;
   font-size: 14px;
-  background: linear-gradient(194deg, rgba(255,255,255,1) 0%, rgba(0,0,128,1) 70%), url("../img/hero-bg.jpg") center center no-repeat;
+  background: linear-gradient(180deg, rgba(255,255,255,0.7) 0%, rgba(11,230,69,0.8) 100%), url("../img/hero-bg.jpg") center center no-repeat;
   background-size: cover;
 }
 
@@ -1553,7 +1664,7 @@ section {
 
 #footer .footer-top .footer-links ul i {
   padding-right: 2px;
-  color: #fff;
+  color: #000;
   font-size: 18px;
   line-height: 1;
 }
@@ -1569,7 +1680,7 @@ section {
 }
 
 #footer .footer-top .footer-links ul a {
-  color: rgba(255, 255, 255, 0.8);
+  color: rgba(0, 0, 0, 1);
   transition: 0.3s;
   display: inline-block;
   line-height: 1;
@@ -1577,7 +1688,7 @@ section {
 
 #footer .footer-top .footer-links ul a:hover {
   text-decoration: underline;
-  color: #fff;
+  color: #000;
 }
 
 #footer .footer-newsletter {
@@ -1593,12 +1704,12 @@ section {
 
 #footer .footer-newsletter form {
   margin-top: 30px;
-  background: #fff;
+  background: #000;
   padding: 6px 10px;
   position: relative;
   border-radius: 5px;
   text-align: left;
-  border: 1px solid white;
+  border: 1px solid #000;
 }
 
 #footer .footer-newsletter form input[type="email"] {
@@ -1634,18 +1745,18 @@ section {
 #footer .credits {
   padding-top: 5px;
   font-size: 13px;
-  color: #fff;
+  color: #000;
 }
 
 #footer .credits a {
-  color: #fff;
+  color: #000;
 }
 
 #footer .social-links a {
   font-size: 18px;
   display: inline-block;
   background: rgba(255, 255, 255, 0.1);
-  color: #fff;
+  color: #000;
   line-height: 1;
   padding: 8px 0;
   margin-right: 4px;
@@ -1658,6 +1769,6 @@ section {
 
 #footer .social-links a:hover {
   background: rgba(255, 255, 255, 0.2);
-  color: #fff;
+  color: #000;
   text-decoration: none;
 }
