@@ -442,7 +442,7 @@ h1, h2, h3, h4, h5, h6 {
 #hero .btn-get-started:hover {
   background: #fff;
   border: #fff;
-  color: #FF9933;
+  color: #000080;
 }
 
 #hero .animated {
@@ -566,25 +566,21 @@ section {
   padding: 120px 0;
 }
 
+.about .content {
+  padding: 50px 30px;
+  border-radius: 50px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
 .about .content h3 {
   font-weight: 600;
   font-size: 32px;
   color: #000080;
 }
 
-.about .content ul {
-  list-style: none;
-  padding: 0;
-}
-
-.about .content ul li {
-  padding-bottom: 10px;
-}
-
-.about .content ul i {
-  font-size: 20px;
-  padding-right: 4px;
-  color: #FF9933;
+.about .content p {
+  font-weight: 600;
+  text-align: justify;
 }
 
 .about .content p:last-child {
@@ -625,6 +621,10 @@ section {
   min-width: 250px;
   margin: 10px;
   box-shadow: 0px 0 25px 0 rgba(0, 0, 0, 0.1);
+}
+
+.about .icon-box p {
+  font-weight: 600;
 }
 
 .about .icon-box .icon {
@@ -1101,9 +1101,14 @@ section {
   z-index: 1;
 }
 
+.portfolio .portfolio-wrap img {
+  width: 400px;
+  height: 400px;
+}
+
 .portfolio .portfolio-wrap::before {
   content: "";
-  background: rgba(88, 70, 249, 0.8);
+  background: rgba(255, 153, 51, 0.8);
   position: absolute;
   left: 30px;
   right: 30px;
