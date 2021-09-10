@@ -48,7 +48,7 @@
           <li><a class="nav-link scrollto " href="#portfolio">Our Team</a></li>
           <li><a class="nav-link scrollto" href="#careers">Careers</a></li>
           <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
-          <li><a class="getstarted scrollto" href="#about">Join Us</a></li>
+          <li><a class="getstarted scrollto" href="#contact">Join Us</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
@@ -586,8 +586,8 @@
       </div>
     </section><!-- End Portfolio Section -->
 
-    <!-- ======= About Section ======= -->
-    <section id="career" class="career">
+    <!-- ======= Careers Section ======= -->
+    <section id="careers" class="career section-bg">
       <div class="container">
 
         <!-- Our Values -->
@@ -614,6 +614,9 @@
               <p>
                 Get an internship in IPIMC to explore and learn in your respective fields.
               </p>
+              <button class="btn btn-primary my-5" type="button" data-bs-toggle="modal" data-bs-target="#internship">
+                Apply Now
+              </button>
             </div>
           </div>
           <div class="col-md-4 col-sm-6 p-3" data-aos="zoom-in" data-aos-delay="300">
@@ -628,6 +631,9 @@
               </div>
               <h4>Designated</h4>
               <p>Apply in our full time offering for the different roles.</p>
+              <button class="btn btn-warning my-5" type="button" data-bs-toggle="modal" data-bs-target="#designated">
+                Apply Now
+              </button>
             </div>
           </div>
           <div class="col-md-4 col-sm-6 p-3" data-aos="zoom-in" data-aos-delay="300">
@@ -642,15 +648,210 @@
               </div>
               <h4>Collaboration</h4>
               <p>For any kind of collaborative communication kindly drop your details here.</p>
+              <button class="btn btn-success my-5" type="button" data-bs-toggle="modal" data-bs-target="#collaboration">
+                Apply Now
+              </button>
             </div>
           </div>
         </div>
 
       </div>
+
+      <!-- Internship Modal Form -->
+      <div class="modal fade" id="internship" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Apply for Internship</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <form action="" method="post">
+              <div class="modal-body">
+                <div class="form-group my-3">
+                  <label for="name">Full Name: </label>
+                  <input type="text" name="name" class="form-control" id="name" placeholder="Enter Name" />
+                </div>
+                <div class="form-group my-3">
+                  <label for="name">Contact Number: </label>
+                  <input type="text" name="contactNumber" class="form-control" id="contactNumber" placeholder="Enter contact number" />
+                </div>
+                <div class="form-group my-3">
+                  <label for="name">Email: </label>
+                  <input type="email" name="email" class="form-control" id="email" placeholder="Enter E-mail" />
+                </div>
+                <div class="form-group my-3">
+                  <label for="name">University: </label>
+                  <input type="text" name="university" class="form-control" id="university" placeholder="Enter University" />
+                </div>
+                <div class="form-group my-3">
+                  <label for="name">State: </label>
+                  <input type="text" name="state" class="form-control" id="state" placeholder="Enter State" />
+                </div>
+                <div class="form-group my-3">
+                  <label for="name">Applying For: </label>
+                  <select name="application" id="application" class="form-select">
+                    <option selected value="Business Developer">Business Developer</option>
+                    <option value="Campaign Manager">Campaign Manager</option>
+                    <option value="Campaign Associate">Campaign Associate</option>
+                    <option value="Political Analyst">Political Analyst</option>
+                    <option value="Content Writer - marathi">Content Writer - marathi</option>
+                    <option value="Content Writer - english">Content Writer - english</option>
+                    <option value="Content Writer - hindi">Content Writer - hindi</option>
+                    <option value="Data Analyst">Data Analyst</option>
+                    <option value="Digital Marketer">Digital Marketer</option>
+                    <option value="Graphic Designer">Graphic Designer</option>
+                    <option value="Relationship Manager">Relationship Manager</option>
+                    <option value="Video Editor">Video Editor</option>
+                    <option value="Web Developer">Web Developer</option>
+                  </select>
+                </div>
+                <div class="form-group my-3">
+                  <label for="name">Upload CV: </label>
+                  <input type="file" name="cv" class="form-control" id="cv" />
+                </div>
+                <div class="form-group my-3">
+                  <label for="name">Upload Work Link: </label>
+                  <input type="text" name="workLink" class="form-control" id="workLink" placeholder="Enter Work Link" />
+                </div>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                <button type="submit" class="btn btn-primary">Submit</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+
+      <!-- Designated Modal Form -->
+      <div class="modal fade" id="designated" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Apply for Designated</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <form action="" method="post">
+              <div class="modal-body">
+                <div class="form-group my-3">
+                  <label for="name">Full Name: </label>
+                  <input type="text" name="name" class="form-control" id="name" placeholder="Enter Name" />
+                </div>
+                <div class="form-group my-3">
+                  <label for="name">Contact Number: </label>
+                  <input type="text" name="contactNumber" class="form-control" id="contactNumber" placeholder="Enter contact number" />
+                </div>
+                <div class="form-group my-3">
+                  <label for="name">Email: </label>
+                  <input type="email" name="email" class="form-control" id="email" placeholder="Enter E-mail" />
+                </div>
+                <div class="form-group my-3">
+                  <label for="name">University: </label>
+                  <input type="text" name="university" class="form-control" id="university" placeholder="Enter University" />
+                </div>
+                <div class="form-group my-3">
+                  <label for="name">State: </label>
+                  <input type="text" name="state" class="form-control" id="state" placeholder="Enter State" />
+                </div>
+                <div class="form-group my-3">
+                  <label for="name">Applying For: </label>
+                  <select name="application" id="application" class="form-select">
+                    <option selected value="Business Developer">Business Developer</option>
+                    <option value="Campaign Manager">Campaign Manager</option>
+                    <option value="Campaign Associate">Campaign Associate</option>
+                    <option value="Political Analyst">Political Analyst</option>
+                    <option value="Content Writer - marathi">Content Writer - marathi</option>
+                    <option value="Content Writer - english">Content Writer - english</option>
+                    <option value="Content Writer - hindi">Content Writer - hindi</option>
+                    <option value="Data Analyst">Data Analyst</option>
+                    <option value="Digital Marketer">Digital Marketer</option>
+                    <option value="Graphic Designer">Graphic Designer</option>
+                    <option value="Relationship Manager">Relationship Manager</option>
+                    <option value="Video Editor">Video Editor</option>
+                    <option value="Web Developer">Web Developer</option>
+                  </select>
+                </div>
+                <div class="form-group my-3">
+                  <label for="name">Upload CV: </label>
+                  <input type="file" name="cv" class="form-control" id="cv" />
+                </div>
+                <div class="form-group my-3">
+                  <label for="name">Upload Work Link: </label>
+                  <input type="text" name="workLink" class="form-control" id="workLink" placeholder="Enter Work Link" />
+                </div>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                <button type="submit" class="btn btn-primary">Submit</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+
+      <!-- Collaboration Modal Form -->
+      <div class="modal fade" id="collaboration" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Apply for Collaboration</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <form action="" method="post">
+              <div class="modal-body">
+                <div class="form-group my-3">
+                  <label for="name">Company Name: </label>
+                  <input type="text" name="companyName" class="form-control" id="companyName" placeholder="Enter Company Name" />
+                </div>
+                <div class="form-group my-3">
+                  <label for="name">Contact Number: </label>
+                  <input type="text" name="contactNumber" class="form-control" id="contactNumber" placeholder="Enter contact number" />
+                </div>
+                <div class="form-group my-3">
+                  <label for="name">Email: </label>
+                  <input type="email" name="email" class="form-control" id="email" placeholder="Enter E-mail" />
+                </div>
+                <div class="form-group my-3">
+                  <label for="name">Website: </label>
+                  <input type="text" name="website" class="form-control" id="website" placeholder="Enter E-mail" />
+                </div>
+                <div class="form-group my-3">
+                  <label for="name">Office Address: </label>
+                  <input type="text" name="officeAddress" class="form-control" id="officeAddress" placeholder="Enter office Address" />
+                </div>
+                <div class="form-group my-3">
+                  <label for="name">State: </label>
+                  <input type="text" name="state" class="form-control" id="state" placeholder="Enter State" />
+                </div>
+                <div class="form-group my-3">
+                  <label for="name">Collaboration For: </label>
+                  <select name="application" id="application" class="form-select">
+                    <option selected value="Content Writing Work">Content Writing Work</option>
+                    <option value="Digital content Creation work">Digital content Creation work</option>
+                    <option value="Ground service work">Ground service work</option>
+                    <option value="Business development work">Business development work</option>
+                    <option value="Overall development work">Overall development work</option>
+                    <option value="Cinematography work">Cinematography work</option>
+                    <option value="Other">Other</option>
+                  </select>
+                </div>
+                <div class="form-group my-3">
+                  <label for="name">Upload previous Work Link: </label>
+                  <input type="text" name="workLink" class="form-control" id="workLink" placeholder="Enter Work Link" />
+                </div>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                <button type="submit" class="btn btn-primary">Submit</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
     </section>
 
     <!-- ======= Contact Section ======= -->
-    <section id="contact" class="contact section-bg">
+    <section id="contact" class="contact">
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
