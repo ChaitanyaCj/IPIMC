@@ -222,6 +222,13 @@ h1, h2, h3, h4, h5, h6 {
 .navbar .getstarted:hover {
   color: #000;
   border-color: #000;
+  padding: 8px 25px;
+}
+
+.navbar .getstarted:focus {
+  color: #000;
+  border-color: #000;
+  padding: 8px 25px;
 }
 
 .navbar .getstarted:before, .navbar li:hover > .getstarted:before {
